@@ -1,3 +1,4 @@
+import { Box } from "@mui/material";
 import Contact from "./Contact";
 import MyInfo from "./MyInfo";
 import Projects from "./Projects";
@@ -5,20 +6,22 @@ import Welcome from "./Welcome";
 
 function Contents() {
   return (
-    <div className="slideShow">
-      <div
-        className="slideWrapper"
-        style={{
-          display: "flex",
-          justifyContent: "center",
-        }}
-      >
-        <Welcome />
-        <MyInfo />
-        <Projects />
-        <Contact />
-      </div>
-    </div>
+    <Box className="contentsSection" id="contents">
+      <Box className="slideShow">
+        <Box
+          className="slideWrapper"
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <Welcome />
+          <MyInfo />
+          <Projects />
+          <Contact />
+        </Box>
+      </Box>
+    </Box>
   );
 }
 export default Contents;

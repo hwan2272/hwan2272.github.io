@@ -1,17 +1,32 @@
+import { Box, Typography } from "@mui/material";
 import Navigation from "./Navigation";
+import styled from "styled-components";
 
 function Header() {
   return (
-    <div
-      style={{
+    <Box
+      className="siteHeader"
+      sx={{
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
+        background: "linear-gradient(0deg, rgb(115,86,31) 0%,#9c27b0 100%)",
+        color: "whitesmoke",
+        opacity: 0.8,
       }}
     >
-      <h1>[ INTFJ ] Park Jeonghwan's HistoryBook</h1>
+      <Typography
+        variant="h5"
+        className="siteTitle"
+        sx={{
+          color: "#efc443",
+          fontFamily: "'SBAggroB', sans-serif",
+        }}
+      >
+        HistoryBook
+      </Typography>
       <Navigation />
-    </div>
+    </Box>
   );
 }
 export default Header;

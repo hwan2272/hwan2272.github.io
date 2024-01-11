@@ -1,16 +1,27 @@
+import { Box, Divider, Typography } from "@mui/material";
+//import "../../css/Contents/Contact.css";
+
 function Contact() {
   return (
-    <section>
-      <div>
-        <div>
-          <h1>Park Jeonghwan</h1>
-          <h3>WEB Developer (Frontend/Backend)</h3>
-          <hr />
-          <h1>C O N T A C T</h1>
-          <h1>Comming Soon ...</h1>
+    <section className="contactSection" id="contact">
+      <Box>
+        <Box>
+          {/* <Typography variant="h4">Park Jeonghwan</Typography>
+          <Typography variant="h5">WEB Developer (Frontend/Backend)</Typography> */}
+          <Typography
+            variant="h5"
+            sx={{
+              color: "#efc443",
+              fontFamily: "'SBAggroB', sans-serif",
+            }}
+          >
+            CONTACT
+          </Typography>
+          <hr className="divider" />
+          <Typography variant="h5">Comming Soon ...</Typography>
           {/* <a href="{{site.url}}{{site.baseurl}}/#about">Read More</a> */}
-        </div>
-      </div>
+        </Box>
+      </Box>
     </section>
     // <section id="contact">
     //   <div>

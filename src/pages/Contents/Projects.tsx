@@ -1,16 +1,27 @@
+import { Box, Divider, Typography } from "@mui/material";
+//import "../../css/Contents/Projects.css";
+
 function Projects() {
   return (
-    <section>
-      <div>
-        <div>
-          <h1>Park Jeonghwan</h1>
-          <h3>WEB Developer (Frontend/Backend)</h3>
-          <hr />
-          <h1>P R O J E C T S</h1>
-          <h1>Comming Soon ...</h1>
+    <section className="projectsSection" id="projects">
+      <Box>
+        <Box>
+          {/* <Typography variant="h4">Park Jeonghwan</Typography>
+          <Typography variant="h5">WEB Developer (Frontend/Backend)</Typography> */}
+          <Typography
+            variant="h5"
+            sx={{
+              color: "#efc443",
+              fontFamily: "'SBAggroB', sans-serif",
+            }}
+          >
+            PROJECTS
+          </Typography>
+          <hr className="divider" />
+          <Typography variant="h5">Comming Soon ...</Typography>
           {/* <a href="{{site.url}}{{site.baseurl}}/#about">Read More</a> */}
-        </div>
-      </div>
+        </Box>
+      </Box>
     </section>
     // <section id="project">
     //   <div>
