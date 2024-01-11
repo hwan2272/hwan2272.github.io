@@ -1,6 +1,5 @@
 import { Box, Typography } from "@mui/material";
 import Navigation from "./Navigation";
-import styled from "styled-components";
 
 function Header() {
   return (

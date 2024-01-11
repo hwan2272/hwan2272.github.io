@@ -1,4 +1,4 @@
-import { Box, Divider, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import "../../css/Contents/Welcome.css";
 
 function Welcome() {
