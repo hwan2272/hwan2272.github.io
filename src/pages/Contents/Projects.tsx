@@ -1,5 +1,6 @@
 import { Box, Typography } from "@mui/material";
-//import "../../css/Contents/Projects.css";
+import OppositeContentTimeline from "../../components/OppositeTimeline";
+import "../../css/Contents/Projects.css";
 
 function Projects() {
   return (
@@ -18,8 +19,13 @@ function Projects() {
             PROJECTS
           </Typography>
           <hr className="divider" />
-          <Typography variant="h5">Comming Soon ...</Typography>
+          {/* <Typography variant="h5">Comming Soon ...</Typography> */}
           {/* <a href="{{site.url}}{{site.baseurl}}/#about">Read More</a> */}
+        </Box>
+        <Box>
+          <Box className="custom-myinfo">
+            <OppositeContentTimeline />
+          </Box>
         </Box>
       </Box>
     </section>

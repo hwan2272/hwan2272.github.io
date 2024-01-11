@@ -8,6 +8,7 @@ function Footer() {
         color: "whitesmoke",
         textAlign: "center",
         opacity: 0.8,
+        width: "100vw",
       }}
     >
       <Typography

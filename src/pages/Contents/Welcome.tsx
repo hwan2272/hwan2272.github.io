@@ -6,7 +6,7 @@ function Welcome() {
     <section className="welcomeSection" id="welcome">
       <Box>
         <Typography variant="h2" className="welcomeTxt">
-          W E L C O M E
+          WELCOME
         </Typography>
         <hr className="divider" />
         <Typography

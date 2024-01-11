@@ -12,6 +12,7 @@ function Header() {
         background: "linear-gradient(0deg, rgb(115,86,31) 0%,#9c27b0 100%)",
         color: "whitesmoke",
         opacity: 0.8,
+        width: "100vw",
       }}
     >
       <Typography

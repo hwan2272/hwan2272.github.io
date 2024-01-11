@@ -27,6 +27,7 @@
 
 body {
   font-family: "S-CoreDream-3Light", sans-serif;
+  overflow-x: hidden;
 }
 
 h1,
@@ -84,6 +85,7 @@ section:nth-child(2) {
 
 section:nth-child(3) {
   /* background: #36bf66; */
+  overflow-y: scroll;
 }
 
 section:nth-child(4) {
