@@ -4,18 +4,17 @@
     height: 200px;
     border: 0.25rem groove black;
     border-radius: 16px;
-    margin: 20px auto;
+    margin: 10px auto;
   }
 }
 
 .myinfo-title-pane {
-  font-size: 14pt;
-  font-family: "Nanum Gothic", sans-serif;
   border: 1px solid rgba(97, 97, 97, 0.2);
   border-radius: 16px;
   padding: 16px;
   background-color: black;
   margin: 0 2rem;
+  text-align: left;
 }
 
 .myinfo-pane {
@@ -24,6 +23,7 @@
   padding: 16px;
   background-color: black;
   margin: 0 2rem;
+  text-align: left;
 }
 
 .myhistory-pane {

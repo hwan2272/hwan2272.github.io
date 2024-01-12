@@ -1,7 +1,7 @@
 ---
   {"title": "Hdms Camel"},
   {"layout": "post"},
-  {"imageLink": "https://user-images.githubusercontent.com/65170244/222341217-aa3deb78-0363-48d3-92d1-067b358de3e7.png"},
+  {"imageLink": "https://github.com/hwan2272/java_e_p/assets/65170244/a8d20155-5480-4edf-a61b-bd5fe6588519"},
   {"tags": "PROJECT현업"},
   {"period": "2023. 04 ~ 2024. 01"}
 ---
@@ -12,7 +12,7 @@
 - React 18및 관련 라이브러리 (Material-UI, React-Query, React-Hookform, yup 외 다수)
 - 백오피스형 시스템 구성. 내부 서비스 다수
 
-## 업무 내역
+#### 업무 내역
 
 - 서비스 프론트엔드단 개발 담당
 - material-ui 및 react-hookform, yup validation, react-query등 최신형 라이브러리의 각종 케이스 경험의 조합 숙달
