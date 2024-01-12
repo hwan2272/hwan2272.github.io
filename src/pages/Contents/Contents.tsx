@@ -6,21 +6,21 @@ import Welcome from "./Welcome";
 
 function Contents() {
   return (
-    <Box className="contentsSection" id="contents">
-      <Box className="slideShow">
+    <Box className="contents-container" id="contents">
+      {/* <Box className="slideShow">
         <Box
           className="slideWrapper"
           sx={{
             display: "flex",
             justifyContent: "center",
           }}
-        >
-          <Welcome />
-          <MyInfo />
-          <Projects />
-          <Contact />
-        </Box>
-      </Box>
+        > */}
+      <Welcome />
+      <MyInfo />
+      <Projects />
+      <Contact />
+      {/* </Box>
+      </Box> */}
     </Box>
   );
 }

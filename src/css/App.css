@@ -39,15 +39,15 @@ h6 {
   padding: 8px;
 }
 
-.siteTitle {
+.site-title {
   padding: 8px;
 }
 
-.siteFooter {
+.site-footer {
   padding: 8px;
 }
 
-.slideShow {
+/* .slideShow {
   text-align: center;
   overflow: hidden;
   height: 100vh;
@@ -57,12 +57,15 @@ h6 {
 .slideWrapper {
   width: calc(100vw * 4);
   animation: slide 40s ease infinite;
+} */
+
+.contents-container {
+  height: calc(auto * 4);
 }
 
 section {
-  float: left;
-  height: 100vh;
   width: 100vw;
+  min-height: 700px;
   background-image: linear-gradient(
       0deg,
       rgb(80, 44, 4) 0%,
@@ -85,7 +88,6 @@ section:nth-child(2) {
 
 section:nth-child(3) {
   /* background: #36bf66; */
-  overflow-y: scroll;
 }
 
 section:nth-child(4) {
@@ -135,4 +137,10 @@ section:nth-child(4) {
   100% {
     width: 92%;
   }
+}
+
+.section-container {
+  text-align: center;
+  align-items: center;
+  padding: 8px;
 }

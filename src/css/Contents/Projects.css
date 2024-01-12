@@ -1,27 +1,73 @@
-.image2 {
-  padding: 8px;
-  img {
-    width: 100%;
-    height: 100%;
-    border: 0.25rem groove black;
-    border-radius: 4px;
-    margin: 0 auto;
-  }
+.project-pane {
+  border: 1px solid rgba(97, 97, 97, 0.2);
+  border-radius: 16px;
+  padding: 16px;
+  background-color: black;
+  margin: 0 2rem;
 }
 
-.custom-project {
-  background-color: cadetblue;
+.project-card-pane {
+  background-color: #039bbd;
   border: 1px solid rgba(97, 97, 97, 0.2);
   border-radius: 16px;
   padding: 8px;
   display: flex;
 }
 
-.custom-project-details {
+.project-card-pane:hover {
+  cursor: pointer;
+  background-color: rgb(17, 170, 241);
+  box-shadow: 0 5px 20px rgba(0, 251, 251, 0.8);
+}
+
+.project-card-image {
+  padding: 8px;
+  figcaption {
+    text-align: center;
+    font-family: "Pretendard", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  img {
+    width: 100%;
+    height: 100px;
+    border: 0.25rem groove black;
+    border-radius: 4px;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+}
+
+.project-card-details-pane {
   border: 1px solid rgba(97, 97, 97, 0.2);
   border-radius: 16px;
   padding: 12px;
   background-color: black;
   text-align: left;
   font-size: 9pt;
+}
+
+.project-card-subtext {
+  font-family: "Nanum-Gothic", sans-serif;
+  font-size: 13pt;
+  text-align: center;
+  color: beige;
+}
+
+.project-card-dialog-image {
+  padding: 8px;
+  figcaption {
+    text-align: center;
+    font-family: "Pretendard", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  img {
+    width: 100%;
+    max-height: 500px;
+    border: 0.25rem groove black;
+    border-radius: 4px;
+    margin: 0 auto;
+    object-fit: cover;
+  }
 }

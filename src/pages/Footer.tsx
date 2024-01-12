@@ -5,7 +5,7 @@ function Footer() {
     <Box
       sx={{
         background: "rgba(97,97,97,0.9)",
-        color: "whitesmoke",
+        color: "beige",
         textAlign: "center",
         opacity: 0.8,
         width: "100vw",
@@ -13,7 +13,7 @@ function Footer() {
     >
       <Typography
         variant="h6"
-        className="siteFooter"
+        className="site-footer"
         sx={{
           fontFamily: "'Pretendard', sans-serif",
         }}

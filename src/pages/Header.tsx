@@ -4,27 +4,29 @@ import Navigation from "./Navigation";
 function Header() {
   return (
     <Box
-      className="siteHeader"
+      className="site-header"
       sx={{
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
         background: "linear-gradient(0deg, rgb(115,86,31) 0%,#9c27b0 100%)",
-        color: "whitesmoke",
+        color: "beige",
         opacity: 0.8,
         width: "100vw",
       }}
     >
-      <Typography
-        variant="h5"
-        className="siteTitle"
-        sx={{
-          color: "#efc443",
-          fontFamily: "'SBAggroB', sans-serif",
-        }}
-      >
-        HistoryBook
-      </Typography>
+      <a href="/">
+        <Typography
+          variant="h5"
+          className="site-title"
+          sx={{
+            color: "#efc443",
+            fontFamily: "'SBAggroB', sans-serif",
+          }}
+        >
+          HistoryBook
+        </Typography>
+      </a>
       <Navigation />
     </Box>
   );

@@ -4,10 +4,8 @@ import { Box, Typography } from "@mui/material";
 function Contact() {
   return (
     <section className="contactSection" id="contact">
-      <Box>
+      <Box className="section-container">
         <Box>
-          {/* <Typography variant="h4">Park Jeonghwan</Typography>
-          <Typography variant="h5">WEB Developer (Frontend/Backend)</Typography> */}
           <Typography
             variant="h5"
             sx={{
@@ -17,10 +15,9 @@ function Contact() {
           >
             CONTACT
           </Typography>
-          <hr className="divider" />
-          <Typography variant="h5">Comming Soon ...</Typography>
-          {/* <a href="{{site.url}}{{site.baseurl}}/#about">Read More</a> */}
         </Box>
+        <hr className="divider" />
+        <Typography variant="h5">Comming Soon ...</Typography>
       </Box>
     </section>
     // <section id="contact">

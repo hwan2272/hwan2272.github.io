@@ -1,14 +1,12 @@
 import { Box, Typography } from "@mui/material";
-import OppositeContentTimeline from "../../components/OppositeTimeline";
 import "../../css/Contents/Projects.css";
+import AlternateTimeline from "../../components/AlternateTimeline";
 
 function Projects() {
   return (
     <section className="projectsSection" id="projects">
-      <Box>
+      <Box className="section-container">
         <Box>
-          {/* <Typography variant="h4">Park Jeonghwan</Typography>
-          <Typography variant="h5">WEB Developer (Frontend/Backend)</Typography> */}
           <Typography
             variant="h5"
             sx={{
@@ -18,41 +16,15 @@ function Projects() {
           >
             PROJECTS
           </Typography>
-          <hr className="divider" />
-          {/* <Typography variant="h5">Comming Soon ...</Typography> */}
-          {/* <a href="{{site.url}}{{site.baseurl}}/#about">Read More</a> */}
         </Box>
+        <hr className="divider" />
         <Box>
-          <Box className="custom-myinfo">
-            <OppositeContentTimeline />
+          <Box className="project-pane">
+            <AlternateTimeline />
           </Box>
         </Box>
       </Box>
     </section>
-    // <section id="project">
-    //   <div>
-    //     <div>
-    //       <div>
-    //         <p>Projects</p>
-    //       </div>
-    //       <div>
-    //         <div id="project-card">
-    //           <a href="{{project.link}}">
-    //             <div>
-    //               <figure
-    //                 style={{ backgroundImage: "url({{project.image}})" }}
-    //               ></figure>
-    //               <div>
-    //                 <h1>{/* {{ project.name }} */}</h1>
-    //                 <p>{/* {{ project.description | truncate: 80}} */}</p>
-    //               </div>
-    //             </div>
-    //           </a>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </section>
   );
 }
 export default Projects;
