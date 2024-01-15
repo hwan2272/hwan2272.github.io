@@ -8,6 +8,7 @@ function Navigation() {
           color="secondary"
           variant="outlined"
           aria-label="outlined secondary button group"
+          sx={{ maxWidth: "100vw" }}
         >
           <Button color="secondary" disableRipple>
             <a className="nav-link-anchor" href="#myinfo">
