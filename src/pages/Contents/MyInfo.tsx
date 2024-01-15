@@ -25,9 +25,7 @@ function MyInfo() {
             />
           </Box>
           <Box className="myinfo-title-pane">
-            <Typography>
-              <b>안녕하세요. INTFJ(인티프제) 박정환입니다.</b>
-            </Typography>
+            <Typography>안녕하세요. INTFJ(인티프제) 박정환입니다.</Typography>
             <Typography>
               개발경력은 Frontend 근 3년 / Backend 9년 정도 됩니다.
             </Typography>
@@ -91,9 +89,7 @@ function MyInfo() {
                     <Typography className="subtext">10개월</Typography>
                   </td>
                   <td>
-                    <Typography>
-                      <b>JavaScript</b> (React)
-                    </Typography>
+                    <Typography>JavaScript (React)</Typography>
                   </td>
                 </tr>
                 <tr>
@@ -110,12 +106,8 @@ function MyInfo() {
                     <Typography className="subtext">5년 4개월</Typography>
                   </td>
                   <td>
-                    <Typography>
-                      <b>Java</b> (SpringBoot, JSP)
-                    </Typography>
-                    <Typography>
-                      <b>JavaScript</b> (React, VUE)
-                    </Typography>
+                    <Typography>Java (SpringBoot, JSP)</Typography>
+                    <Typography>JavaScript (React, VUE)</Typography>
                   </td>
                 </tr>
                 <tr>
@@ -132,12 +124,8 @@ function MyInfo() {
                     <Typography className="subtext">4년 3개월</Typography>
                   </td>
                   <td>
-                    <Typography>
-                      <b>Java</b> (Spring, JSP)
-                    </Typography>
-                    <Typography>
-                      <b>.Net</b> (ASP.net)
-                    </Typography>
+                    <Typography>Java (Spring, JSP)</Typography>
+                    <Typography>.Net (ASP.net)</Typography>
                   </td>
                 </tr>
               </tbody>

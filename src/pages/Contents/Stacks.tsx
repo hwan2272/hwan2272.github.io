@@ -18,7 +18,7 @@ function Stacks() {
         </Box>
         <hr className="divider" />
         <Box>
-          <Box className="stacks-title-pane">
+          <Box className="stacks-pane">
             <Typography>Main Skill</Typography>
             <Box>
               <Box
@@ -92,6 +92,30 @@ function Stacks() {
               <img src="https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00" />
               <img src="https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white" />
               <Typography>...</Typography>
+            </Box>
+          </Box>
+          <hr className="divider" />
+          <Box className="stacks-pane">
+            <Typography>교육 수료내역</Typography>
+            <Box>
+              <Typography>
+                [2022.12 ~ 2023.02] : 웹표준 & 웹접근성(HTML,CSS) 코딩 기초부터
+                실무테크닉
+              </Typography>
+              <Typography>
+                [2016.04 ~ 2016.04] : 전자정부 표준프레임워크 및 공통컴포넌트
+                개발자 실무과정(2016년 3차)
+              </Typography>
+              <Typography>
+                [2012.08 ~ 2012.11] : HTML5 기반의 Java와 JQuery 개발자 과정
+              </Typography>
+            </Box>
+          </Box>
+          <hr className="divider" />
+          <Box className="stacks-pane">
+            <Typography>자격증</Typography>
+            <Box>
+              <Typography>[2012.09] : OCJP 6.0</Typography>
             </Box>
           </Box>
         </Box>

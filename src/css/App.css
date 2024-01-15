@@ -128,7 +128,8 @@ section:nth-child(4) {
 .divider {
   width: 0;
   border: 2px solid goldenrod;
-  animation: separator-width 5s ease-out infinite forwards;
+  /* animation: separator-width 5s ease-out infinite forwards; */
+  animation: separator-width 5s ease-out forwards;
 }
 
 @keyframes separator-width {

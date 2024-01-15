@@ -18,18 +18,9 @@ function Contact() {
         </Box>
         <hr className="divider" />
         <Box className="contact-pane">
-          <Box
-            sx={{
-              border: "2px groove orange",
-              borderRadius: 2,
-              padding: 2,
-              backgroundColor: "dimgray",
-            }}
-          >
-            <Typography>Github : https://github.com/hwan2272</Typography>
-            <Typography>Email : hwan2272@gmail.com</Typography>
-            <Typography>Email2 : hwan2230@naver.com</Typography>
-          </Box>
+          <Typography>Github : https://github.com/hwan2272</Typography>
+          <Typography>Email : hwan2272@gmail.com</Typography>
+          <Typography>Email2 : hwan2230@naver.com</Typography>
         </Box>
       </Box>
     </section>
