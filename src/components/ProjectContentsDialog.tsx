@@ -14,6 +14,7 @@ import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
 interface ProjectContentsDialogProps {
   open: boolean;
   meta: {
+    codeKey: string;
     title: string;
     layout: string;
     imageLink: string;

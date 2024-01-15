@@ -1,4 +1,5 @@
 ---
+  {"codeKey": "minwiseservices_201909"},
   {"title": "부가서비스6종"},
   {"layout": "post"},
   {"imageLink": "https://user-images.githubusercontent.com/65170244/222355228-eaad6405-554f-40ba-a45e-876a0f1f6c5d.png"},
@@ -15,7 +16,7 @@
 
 #### 기간
 
-- 2019. 09 ~ 2021. 08 (1년 11개월)
+- [2019. 09 ~ 2021. 08] (1년 11개월)
 
 #### 업무 내역
 

@@ -6,6 +6,7 @@ import remarkGfm from "remark-gfm";
 
 interface mdFileContents {
   meta: {
+    codeKey: string;
     title: string;
     layout: string;
     imageLink: string;

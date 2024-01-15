@@ -1,4 +1,5 @@
 ---
+  {"codeKey": "historybook_202401"},
   {"title": "HistoryBook"},
   {"layout": "post"},
   {"imageLink": "https://github.com/hwan2272/hwan2272.github.io/assets/65170244/1484641e-2ff8-45d1-9ddd-1bdf48ef4616"},
@@ -14,7 +15,7 @@
 
 #### 기간
 
-- 2024. 01 (ING)
+- [2024. 01] (ING)
 
 #### 업무 내역
 

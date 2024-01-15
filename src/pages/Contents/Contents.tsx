@@ -4,6 +4,7 @@ import MyInfo from "./MyInfo";
 import Projects from "./Projects";
 import Welcome from "./Welcome";
 import Stacks from "./Stacks";
+import ToTopButton from "./ToTopButton";
 
 function Contents() {
   return (
@@ -21,6 +22,7 @@ function Contents() {
       <Projects />
       <Stacks />
       <Contact />
+      <ToTopButton />
       {/* </Box>
       </Box> */}
     </Box>

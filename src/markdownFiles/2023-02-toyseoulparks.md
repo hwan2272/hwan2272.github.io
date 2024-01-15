@@ -1,4 +1,5 @@
 ---
+    {"codeKey": "toyseoulparks_202302"},
     {"title": "설힐공"},
     {"layout": "post"},
     {"imageLink": "https://user-images.githubusercontent.com/65170244/222340777-d708c892-ae1f-48ec-986b-5ad8a2b06096.png"},
@@ -15,7 +16,7 @@
 
 #### 기간
 
-- 2023. 02 (1개월)
+- [2023. 02] (1개월)
 
 #### 업무 내역
 

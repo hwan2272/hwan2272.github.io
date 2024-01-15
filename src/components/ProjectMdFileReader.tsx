@@ -36,6 +36,7 @@ function ProjectMdFileReader() {
 
   interface mdFileContents {
     meta: {
+      codeKey: string;
       title: string;
       layout: string;
       imageLink: string;
@@ -47,6 +48,7 @@ function ProjectMdFileReader() {
 
   const [fileContents, setFileContents] = useState<mdFileContents[]>([]);
 
+  // 수정예정 - fetch가 테스트 코드를 타지 못함
   useEffect(() => {
     mdFiles.map((file) => {
       fetch(file)
@@ -64,13 +66,14 @@ function ProjectMdFileReader() {
   }, []);
 
   const extractMdFileMetaData = (mdFileMeta: string) => {
-    const title = JSON.parse(mdFileMeta.split(",")[0]).title;
-    const layout = JSON.parse(mdFileMeta.split(",")[1]).layout;
-    const imageLink = JSON.parse(mdFileMeta.split(",")[2]).imageLink;
-    const tags = JSON.parse(mdFileMeta.split(",")[3]).tags;
-    const period = JSON.parse(mdFileMeta.split(",")[4]).period;
+    const codeKey = JSON.parse(mdFileMeta.split(",")[0]).codeKey;
+    const title = JSON.parse(mdFileMeta.split(",")[1]).title;
+    const layout = JSON.parse(mdFileMeta.split(",")[2]).layout;
+    const imageLink = JSON.parse(mdFileMeta.split(",")[3]).imageLink;
+    const tags = JSON.parse(mdFileMeta.split(",")[4]).tags;
+    const period = JSON.parse(mdFileMeta.split(",")[5]).period;
 
-    return { title, layout, imageLink, tags, period };
+    return { codeKey, title, layout, imageLink, tags, period };
   };
 
   return (
@@ -78,7 +81,7 @@ function ProjectMdFileReader() {
       {fileContents &&
         fileContents.map((fileContents) => {
           return (
-            <TimelineItem>
+            <TimelineItem key={fileContents.meta.codeKey}>
               <TimelineSeparator>
                 <TimelineDot />
                 <TimelineConnector />

@@ -38,7 +38,6 @@ function Welcome() {
             반응형 작업중...
           </Typography>
         </Box>
-        {/* <a href="{{site.url}}{{site.baseurl}}/#about">Read More</a> */}
       </Box>
     </section>
   );

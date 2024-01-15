@@ -1,4 +1,5 @@
 ---
+  {"codeKey": "hdmscamel_202304"},
   {"title": "Hdms Camel"},
   {"layout": "post"},
   {"imageLink": "https://github.com/hwan2272/java_e_p/assets/65170244/a8d20155-5480-4edf-a61b-bd5fe6588519"},
@@ -14,7 +15,7 @@
 
 #### 기간
 
-- 2023. 04 ~ 2024. 01 (10개월)
+- [2023. 04 ~ 2024. 01] (10개월)
 
 #### 업무 내역
 

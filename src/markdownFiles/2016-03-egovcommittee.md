@@ -1,4 +1,5 @@
 ---
+  {"codeKey": "egovcommittee_201603"},
   {"title": "위원회관리시스템"},
   {"layout": "post"},
   {"imageLink": "https://user-images.githubusercontent.com/65170244/222341217-aa3deb78-0363-48d3-92d1-067b358de3e7.png"},
@@ -13,7 +14,7 @@
 
 #### 기간
 
-- 2016. 03 ~ 2016. 09 (7개월)
+- [2016. 03 ~ 2016. 09] (7개월)
 
 #### 업무 내역
 

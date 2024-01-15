@@ -10,15 +10,17 @@ function Footer() {
         width: "100vw",
       }}
     >
-      <Typography
-        variant="h6"
-        className="site-footer"
-        sx={{
-          fontFamily: "'Pretendard', sans-serif",
-        }}
-      >
-        Copyright ⓒ 2024. hwan2272 All rights reserved.
-      </Typography>
+      <footer>
+        <Typography
+          variant="h6"
+          className="site-footer"
+          sx={{
+            fontFamily: "'Pretendard', sans-serif",
+          }}
+        >
+          Copyright ⓒ 2024. hwan2272 All rights reserved.
+        </Typography>
+      </footer>
     </Box>
   );
 }

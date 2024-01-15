@@ -1,4 +1,5 @@
 ---
+    {"codeKey": "msaecomms_202205"},
     {"title": "msaecomms"},
     {"layout": "post"},
     {"imageLink": "https://user-images.githubusercontent.com/65170244/222345379-db443a34-9537-4bdd-8999-1061a0eed245.png"},
@@ -14,7 +15,7 @@
 
 #### 기간
 
-- 2022. 05 ~ 2022. 08 (4개월)
+- [2022. 05 ~ 2022. 08] (4개월)
 
 #### 업무 내역
 

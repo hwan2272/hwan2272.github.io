@@ -25,6 +25,10 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "S-CoreDream-3Light", sans-serif;
   overflow-x: hidden;
@@ -39,8 +43,14 @@ h6 {
   padding: 8px;
 }
 
-.site-title {
+/* .site-title {
   padding: 8px;
+} */
+
+.nav-link-anchor {
+  text-decoration: none;
+  color: beige;
+  font-family: "Nanum-Gothic", sans-serif;
 }
 
 .site-footer {

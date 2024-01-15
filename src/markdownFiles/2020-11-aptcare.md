@@ -1,4 +1,5 @@
 ---
+    {"codeKey": "aptcare_202011"},
     {"title": "아파트청약케어"},
     {"layout": "post"},
     {"imageLink": "https://user-images.githubusercontent.com/65170244/222340717-cdac12f3-5f60-4f99-b239-759b58ddb615.png"},
@@ -14,7 +15,7 @@
 
 #### 기간
 
-- 2020. 11 ~ 2022. 04 (1년 5개월)
+- [2020. 11 ~ 2022. 04] (1년 5개월)
 
 #### 업무 내역
 
