@@ -1,6 +1,4 @@
-import { Box, Button, ButtonGroup, Typography } from "@mui/material";
-
-//const navigate = useNavigate();
+import { Box, Button, ButtonGroup } from "@mui/material";
 
 function Navigation() {
   return (
