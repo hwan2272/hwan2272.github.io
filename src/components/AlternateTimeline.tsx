@@ -1,10 +1,10 @@
 import Timeline from "@mui/lab/Timeline";
-import MdFileRead from "./ProjectMdFileReader";
+import ProjectMdFileReader from "./ProjectMdFileReader";
 
 function AlternateTimeline() {
   return (
     <Timeline position="alternate">
-      <MdFileRead />
+      <ProjectMdFileReader />
     </Timeline>
   );
 }

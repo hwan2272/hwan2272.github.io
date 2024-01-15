@@ -3,6 +3,7 @@ import Contact from "./Contact";
 import MyInfo from "./MyInfo";
 import Projects from "./Projects";
 import Welcome from "./Welcome";
+import Stacks from "./Stacks";
 
 function Contents() {
   return (
@@ -18,6 +19,7 @@ function Contents() {
       <Welcome />
       <MyInfo />
       <Projects />
+      <Stacks />
       <Contact />
       {/* </Box>
       </Box> */}

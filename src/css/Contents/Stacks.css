@@ -1,4 +1,4 @@
-.contact-title-pane {
+.stacks-title-pane {
   border: 1px solid rgba(97, 97, 97, 0.2);
   border-radius: 16px;
   padding: 16px;
@@ -7,7 +7,7 @@
   text-align: left;
 }
 
-.contact-pane {
+.stacks-pane {
   border: 1px solid rgba(97, 97, 97, 0.2);
   border-radius: 16px;
   padding: 16px;

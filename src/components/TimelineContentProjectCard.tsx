@@ -33,7 +33,7 @@ function TimelineContentProjectCard(props: mdFileContents) {
           <Grid item xs={12} md={4}>
             <Box className="project-card-image">
               <figure>
-                <img src={props.meta.imageLink} alt="Hdms Camel" />
+                <img src={props.meta.imageLink} alt={props.meta.title} />
                 <figcaption>{props.meta.title}</figcaption>
               </figure>
             </Box>

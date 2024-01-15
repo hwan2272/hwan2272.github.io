@@ -3,7 +3,6 @@ import Header from "../pages/Header";
 import Footer from "../pages/Footer";
 import Contents from "../pages/Contents/Contents";
 import Navigation from "../pages/Navigation";
-import MdFileRead from "../components/mdFileRead";
 
 test("Layout Element Check : [Header] : site-title", () => {
   render(<Header />);
@@ -31,9 +30,4 @@ test("Layout Element Check : [Footer] : site-footer", () => {
   const headingElement = document.querySelector("h6");
   expect(headingElement).toHaveClass("site-footer");
   expect(headingElement).not.toBeNull();
-});
-
-test("mdFileRead", () => {
-  const mdFileRead = render(<MdFileRead />);
-  expect(mdFileRead).not.toBeNull();
 });

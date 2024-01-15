@@ -26,7 +26,7 @@ function MyInfo() {
           </Box>
           <Box className="myinfo-title-pane">
             <Typography>
-              <b>안녕하세요. INTFJ 박정환입니다.</b>
+              <b>안녕하세요. INTFJ(인티프제) 박정환입니다.</b>
             </Typography>
             <Typography>
               개발경력은 Frontend 근 3년 / Backend 9년 정도 됩니다.
@@ -36,9 +36,7 @@ function MyInfo() {
           <Box className="myinfo-pane">
             <Typography>현재는 Frontend를 주로 합니다.</Typography>
             <br />
-            <Typography>
-              Frontend Framework 중에서는 React를 주로 다루며,
-            </Typography>
+            <Typography>Frontend 중에서는 React를 주로 다루며,</Typography>
             <Typography>
               최근에는 material-ui, react-query, react-hookform, yup 등의 보조
               라이브러리 조합 구성을 사용했습니다.
@@ -65,14 +63,9 @@ function MyInfo() {
             </Typography>
             <Typography>
               TMI2 : 어쩌다 보니 Frontend/Backend 다 하는 FullStack 개발자라고
-              할수도 있는 인생인데 'FullStack'에 조금만 더하면 'Stack
-              Overflow'가 될까봐 그 단어를 별로 안 좋아합니다. 누가 머 하시냐
-              물어보면 그냥 웹개발자라고 대답합니다.
-            </Typography>
-            <Typography>
-              TMI3 : 친구들은 제가 '개발자' 라고만 알고 있습니다. Frontend /
-              Backend 설명해줘도 모릅니다. 친구들에게도 그냥 웹개발자라고
-              대답합니다.
+              할수도 있는 인생인데 'FullStack'은 조금만 더하면 'Stack
+              Overflow'가 될것 같아보입니다. 누가 직업을 물어보면 그냥
+              웹개발자라고 대답합니다.
             </Typography>
           </Box>
           <hr className="divider" />

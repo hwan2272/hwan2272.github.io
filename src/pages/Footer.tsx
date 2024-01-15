@@ -4,8 +4,7 @@ function Footer() {
   return (
     <Box
       sx={{
-        background: "rgba(97,97,97,0.9)",
-        color: "beige",
+        background: "dimgray",
         textAlign: "center",
         opacity: 0.8,
         width: "100vw",

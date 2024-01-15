@@ -57,6 +57,21 @@ function Navigation() {
         </Button>
         <Button
           onClick={() => {
+            //navigate("#stacks");
+            document.location.href = "#stacks";
+          }}
+        >
+          <Typography
+            sx={{
+              fontFamily: "'SBAggroB', sans-serif",
+              fontSize: "11pt",
+            }}
+          >
+            Stacks
+          </Typography>
+        </Button>
+        <Button
+          onClick={() => {
             //navigate("#contact");
             document.location.href = "#contact";
           }}

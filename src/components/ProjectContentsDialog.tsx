@@ -91,7 +91,7 @@ function ProjectContentsDialog(props: ProjectContentsDialogProps) {
       <DialogContent dividers>
         <Box className="project-card-dialog-image">
           <figure>
-            <img src={props.meta.imageLink} alt="Hdms Camel" />
+            <img src={props.meta.imageLink} alt={props.meta.title} />
             <figcaption>{props.meta.title}</figcaption>
           </figure>
         </Box>
