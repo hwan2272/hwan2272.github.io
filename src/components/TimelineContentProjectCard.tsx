@@ -12,11 +12,15 @@ interface mdFileContents {
     imageLink: string;
     tags: string;
     period: string;
+    description: string;
+    serviceToNumber: string;
+    unit: string;
   };
   contents: string;
 }
 
 function TimelineContentProjectCard(props: mdFileContents) {
+  const { meta, contents } = props;
   const [open, setOpen] = useState(false);
 
   const handleOpenContentsDialog = () => {
@@ -34,8 +38,8 @@ function TimelineContentProjectCard(props: mdFileContents) {
           <Grid item xs={12} md={4}>
             <Box className="project-card-image">
               <figure>
-                <img src={props.meta.imageLink} alt={props.meta.title} />
-                <figcaption>{props.meta.title}</figcaption>
+                <img src={meta.imageLink} alt={meta.title} />
+                <figcaption>{meta.title}</figcaption>
               </figure>
             </Box>
           </Grid>
@@ -49,22 +53,36 @@ function TimelineContentProjectCard(props: mdFileContents) {
                   fontSize: "13pt",
                 }}
               >
-                {props.meta.title}
+                {meta.title}
               </Typography>
               <Box sx={{ fontSize: "10pt", lineHeight: "1rem" }}>
                 <ReactMarkdown
                   remarkPlugins={[remarkGfm]}
-                  children={props.contents.substring(0, 100) + "... [more]"}
+                  children={"### " + meta.description}
                 />
+                <p>
+                  <span
+                    style={{
+                      color: "orange",
+                      fontFamily: "'SBAggroB', sans-serif",
+                      fontSize: "12pt",
+                    }}
+                  >
+                    {meta.serviceToNumber}
+                  </span>
+                  &nbsp;
+                  {meta.unit}
+                </p>
+                <Typography>...[more]</Typography>
               </Box>
             </Box>
           </Grid>
         </Grid>
       </Box>
-      <Box className="project-card-subtext">{props.meta.period}</Box>
+      <Box className="project-card-subtext">{meta.period}</Box>
       <ProjectContentsDialog
-        meta={props.meta}
-        contents={props.contents}
+        meta={meta}
+        contents={contents}
         open={open}
         onClose={handleClose}
       />

@@ -1,13 +1,18 @@
 ---
-    {"codeKey": "toyseoulparks_202302"},
-    {"title": "설힐공"},
-    {"layout": "post"},
-    {"imageLink": "https://user-images.githubusercontent.com/65170244/222340777-d708c892-ae1f-48ec-986b-5ad8a2b06096.png"},
-    {"tags": "PROJECT/개인"},
-    {"period": "2023. 02"},
+{"codeKey": "toyseoulparks_202302"},
+{"title": "설힐공"},
+{"layout": "post"},
+{"imageLink": "https://user-images.githubusercontent.com/65170244/222340777-d708c892-ae1f-48ec-986b-5ad8a2b06096.png"},
+{"tags": "PROJECT/개인"},
+{"period": "2023. 02"},
+{"description": "설힐공-서울의 힐링공원 : 공원정보 사이트"},
+{"serviceToNumber": "132건"},
+{"unit": "공원정보"},
 ---
 
 ### 설힐공-서울의 힐링공원 : 공원정보 사이트
+
+### (공원정보 132건)
 
 - 개인 프로젝트
 - 기술스택 : react, redux및 관련 라이브러리, 서울시 공공데이터(공원정보) api, Naver map api, Kakao map api

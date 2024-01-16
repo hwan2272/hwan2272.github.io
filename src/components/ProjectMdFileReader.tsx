@@ -42,6 +42,9 @@ function ProjectMdFileReader() {
       imageLink: string;
       tags: string;
       period: string;
+      description: string;
+      serviceToNumber: string;
+      unit: string;
     };
     contents: string;
   }
@@ -54,7 +57,8 @@ function ProjectMdFileReader() {
       fetch(file)
         .then((res) => res.text())
         .then((text) => {
-          const mdFileMeta = text.split("---")[1].replace(/\n|\r|\s*/g, "");
+          //const mdFileMeta = text.split("---")[1].replace(/\n|\r|\s*/g, "");
+          const mdFileMeta = text.split("---")[1];
           const meta = extractMdFileMetaData(mdFileMeta);
 
           setFileContents((prevFileContents) => [
@@ -72,8 +76,23 @@ function ProjectMdFileReader() {
     const imageLink = JSON.parse(mdFileMeta.split(",")[3]).imageLink;
     const tags = JSON.parse(mdFileMeta.split(",")[4]).tags;
     const period = JSON.parse(mdFileMeta.split(",")[5]).period;
+    const description = JSON.parse(mdFileMeta.split(",")[6]).description;
+    const serviceToNumber = JSON.parse(
+      mdFileMeta.split(",")[7]
+    ).serviceToNumber;
+    const unit = JSON.parse(mdFileMeta.split(",")[8]).unit;
 
-    return { codeKey, title, layout, imageLink, tags, period };
+    return {
+      codeKey,
+      title,
+      layout,
+      imageLink,
+      tags,
+      period,
+      description,
+      serviceToNumber,
+      unit,
+    };
   };
 
   return (

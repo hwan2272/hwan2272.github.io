@@ -1,10 +1,13 @@
 ---
-    {"codeKey": "walhouse_201910"},
-    {"title": "왈하우스"},
-    {"layout": "post"},
-    {"imageLink": "https://user-images.githubusercontent.com/65170244/222340947-8742f2e7-cfe3-4f5e-bb13-ca043aaaa3a9.png"},
-    {"tags": "PROJECT/현업"},
-    {"period": "2019. 10 ~ 2020. 03"},
+{"codeKey": "walhouse_201910"},
+{"title": "왈하우스"},
+{"layout": "post"},
+{"imageLink": "https://user-images.githubusercontent.com/65170244/222340947-8742f2e7-cfe3-4f5e-bb13-ca043aaaa3a9.png"},
+{"tags": "PROJECT/현업"},
+{"period": "2019. 10 ~ 2020. 03"},
+{"description": "왈하우스 : 반려견관련 이통사 부가서비스"},
+{"serviceToNumber": "매주 코드리뷰"},
+{"unit": "당시기준"},
 ---
 
 ### 왈하우스 : 반려견관련 이통사 부가서비스

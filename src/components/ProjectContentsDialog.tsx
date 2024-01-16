@@ -20,6 +20,9 @@ interface ProjectContentsDialogProps {
     imageLink: string;
     tags: string;
     period: string;
+    description: string;
+    serviceToNumber: string;
+    unit: string;
   };
   contents: string;
   onClose: () => void;

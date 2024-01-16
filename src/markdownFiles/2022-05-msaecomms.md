@@ -1,10 +1,13 @@
 ---
-    {"codeKey": "msaecomms_202205"},
-    {"title": "msaecomms"},
-    {"layout": "post"},
-    {"imageLink": "https://user-images.githubusercontent.com/65170244/222345379-db443a34-9537-4bdd-8999-1061a0eed245.png"},
-    {"tags": "PROJECT/개인"},
-    {"period": "2022. 05 ~ 2022. 08"},
+{"codeKey": "msaecomms_202205"},
+{"title": "msaecomms"},
+{"layout": "post"},
+{"imageLink": "https://user-images.githubusercontent.com/65170244/222345379-db443a34-9537-4bdd-8999-1061a0eed245.png"},
+{"tags": "PROJECT/개인"},
+{"period": "2022. 05 ~ 2022. 08"},
+{"description": "MSAECOMMS : e커머스 서버"},
+{"serviceToNumber": "자기개발"},
+{"unit": "당시기준"},
 ---
 
 ### MSAECOMMS : e커머스 서버

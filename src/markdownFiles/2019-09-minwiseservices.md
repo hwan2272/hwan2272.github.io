@@ -1,13 +1,18 @@
 ---
-  {"codeKey": "minwiseservices_201909"},
-  {"title": "부가서비스6종"},
-  {"layout": "post"},
-  {"imageLink": "https://user-images.githubusercontent.com/65170244/222355228-eaad6405-554f-40ba-a45e-876a0f1f6c5d.png"},
-  {"tags": "PROJECT/현업"},
-  {"period": "2019. 09 ~ 2021. 08"},
+{"codeKey": "minwiseservices_201909"},
+{"title": "부가서비스6종"},
+{"layout": "post"},
+{"imageLink": "https://user-images.githubusercontent.com/65170244/222355228-eaad6405-554f-40ba-a45e-876a0f1f6c5d.png"},
+{"tags": "PROJECT/현업"},
+{"period": "2019. 09 ~ 2021. 08"},
+{"description": "이통사 부가서비스 6종 : LOP / SPM / 주투 / 슈퍼 / 알파 / PNS"},
+{"serviceToNumber": "50000여명"},
+{"unit": "당시기준 주투 가입자"},
 ---
 
 ### 민앤지 주력 이통사 부가서비스 6종
+
+### 당시기준 (주투 가입자 5만여명 / 슈퍼 가입자 3만여명)
 
 - 회사 주력 부가서비스 유지보수
 - 기술스택 : Java Jsp, Spring, SpringBoot및 관련 라이브러리, Oracle

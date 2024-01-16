@@ -1,13 +1,18 @@
 ---
-  {"codeKey": "hdmscamel_202304"},
-  {"title": "Hdms Camel"},
-  {"layout": "post"},
-  {"imageLink": "https://github.com/hwan2272/java_e_p/assets/65170244/a8d20155-5480-4edf-a61b-bd5fe6588519"},
-  {"tags": "PROJECT/현업"},
-  {"period": "2023. 04 ~ 2024. 01"}
+{"codeKey": "hdmscamel_202304"},
+{"title": "Hdms Camel"},
+{"layout": "post"},
+{"imageLink": "https://github.com/hwan2272/java_e_p/assets/65170244/a8d20155-5480-4edf-a61b-bd5fe6588519"},
+{"tags": "PROJECT/현업"},
+{"period": "2023. 04 ~ 2024. 01"},
+{"description": "Hdms Camel : 임상연구사업 관리 통합플랫폼 HDMS 서비스 Camel버전"},
+{"serviceToNumber": "3건"},
+{"unit": "당시기준 상용오픈건"},
 ---
 
 ### Hdms Camel : 임상연구사업 관리 통합플랫폼 HDMS 서비스 Camel버전
+
+### 당시기준 (상용오픈 3건)
 
 - Frontend 개발
 - 기술스택 : React 18및 관련 라이브러리 (Material-UI, React-Query, React-Hookform, yup 외 다수)

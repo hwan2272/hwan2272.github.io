@@ -1,13 +1,18 @@
 ---
-  {"codeKey": "egovcommittee_201603"},
-  {"title": "위원회관리시스템"},
-  {"layout": "post"},
-  {"imageLink": "https://user-images.githubusercontent.com/65170244/222341217-aa3deb78-0363-48d3-92d1-067b358de3e7.png"},
-  {"tags": "PROJECT/현업"},
-  {"period": "2016. 03 ~ 2016. 09"},
+{"codeKey": "egovcommittee_201603"},
+{"title": "위원회관리시스템"},
+{"layout": "post"},
+{"imageLink": "https://user-images.githubusercontent.com/65170244/222341217-aa3deb78-0363-48d3-92d1-067b358de3e7.png"},
+{"tags": "PROJECT/현업"},
+{"period": "2016. 03 ~ 2016. 09"},
+{"description": "여성가족부 정부위원회 양성평등 관리시스템"},
+{"serviceToNumber": "18251곳"},
+{"unit": "당시기준 정부위원회"},
 ---
 
 ### 여성가족부 정부위원회 양성평등 관리시스템
+
+### 당시기준 (정부위원회 : 18251곳)
 
 - Spring(eGovFramework) Backend개발, Jsp 개발
 - 기술스택 : Java Jsp, Spring(eGovFramework)및 관련 라이브러리, Sybase

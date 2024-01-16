@@ -1,13 +1,18 @@
 ---
-    {"codeKey": "aptcare_202011"},
-    {"title": "아파트청약케어"},
-    {"layout": "post"},
-    {"imageLink": "https://user-images.githubusercontent.com/65170244/222340717-cdac12f3-5f60-4f99-b239-759b58ddb615.png"},
-    {"tags": "PROJECT/현업"},
-    {"period": "2020. 11 ~ 2022. 04"},
+{"codeKey": "aptcare_202011"},
+{"title": "아파트청약케어"},
+{"layout": "post"},
+{"imageLink": "https://user-images.githubusercontent.com/65170244/222340717-cdac12f3-5f60-4f99-b239-759b58ddb615.png"},
+{"tags": "PROJECT/현업"},
+{"period": "2020. 11 ~ 2022. 04"},
+{"description": "아파트청약케어 : 아파트관련 이통사 부가서비스"},
+{"serviceToNumber": "4000여명"},
+{"unit": "당시기준 SKT + KT 가입자"},
 ---
 
 ### 아파트청약케어 : 아파트관련 이통사 부가서비스
+
+### 당시기준 (SKT,KT 가입자 4천여명)
 
 - 기술스택 : React.js 및 관련 라이브러리, localStorage, Kakao map api, flutter(앱개발팀 개발)연동 인터페이스(모바일웹)
 - SpringBoot및 관련 라이브러리, 공공데이터(건축물대장, 아파트정보 등) 연동, Mysql
