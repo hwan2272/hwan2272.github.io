@@ -7,10 +7,10 @@ function Welcome() {
       <Box className="welcome-area">
         <Box>
           <Typography
+            className="welcome-text"
             variant="h2"
             sx={{
-              fontFamily: "'SBAggroB', sans-serif",
-              fontSize: "23pt",
+              fontFamily: "'Nanum-Gothic', sans-serif",
             }}
           >
             W E L C O M E
