@@ -6,7 +6,7 @@ import Navigation from "../pages/Navigation";
 
 test("Layout Element Check : [Header] : site-title", () => {
   render(<Header />);
-  const headingElement = document.querySelector("h5");
+  const headingElement = document.querySelector("h1");
   expect(headingElement).toHaveClass("site-title");
   expect(headingElement).not.toBeNull();
 });
@@ -27,7 +27,7 @@ test("Layout Element Check : [Contents] : contents-container", () => {
 
 test("Layout Element Check : [Footer] : site-footer", () => {
   render(<Footer />);
-  const headingElement = document.querySelector("h6");
+  const headingElement = document.querySelector("h2");
   expect(headingElement).toHaveClass("site-footer");
   expect(headingElement).not.toBeNull();
 });

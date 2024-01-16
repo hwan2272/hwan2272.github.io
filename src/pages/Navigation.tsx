@@ -1,38 +1,23 @@
-import { Box, Button, ButtonGroup } from "@mui/material";
+import { Box } from "@mui/material";
 
 function Navigation() {
   return (
-    <nav className="navigation">
-      <Box sx={{ display: "flex" }}>
-        <ButtonGroup
-          color="secondary"
-          variant="outlined"
-          aria-label="outlined secondary button group"
-          sx={{ maxWidth: "100vw" }}
-        >
-          <Button color="secondary" disableRipple>
-            <a className="nav-link-anchor" href="#myinfo">
-              introduce
-            </a>
-          </Button>
-          <Button color="secondary" disableRipple>
-            <a className="nav-link-anchor" href="#projects">
-              projects
-            </a>
-          </Button>
-          <Button color="secondary" disableRipple>
-            <a className="nav-link-anchor" href="#stacks">
-              stacks
-            </a>
-          </Button>
-          <Button color="secondary" disableRipple>
-            <a className="nav-link-anchor" href="#contact">
-              contact
-            </a>
-          </Button>
-        </ButtonGroup>
-      </Box>
-    </nav>
+    <Box>
+      <ul>
+        <li>
+          <a href="#myinfo">introduce</a>
+        </li>
+        <li>
+          <a href="#projects">projects</a>
+        </li>
+        <li>
+          <a href="#stacks">stacks</a>
+        </li>
+        <li>
+          <a href="#contact">contact</a>
+        </li>
+      </ul>
+    </Box>
   );
 }
 export default Navigation;

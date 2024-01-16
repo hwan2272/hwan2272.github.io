@@ -17,11 +17,21 @@ function Contents() {
             justifyContent: "center",
           }}
         > */}
-      <Welcome />
-      <MyInfo />
-      <Projects />
-      <Stacks />
-      <Contact />
+      <section className="welcomeSection" id="welcome">
+        <Welcome />
+      </section>
+      <section className="myInfoSection" id="myinfo">
+        <MyInfo />
+      </section>
+      <section className="projectsSection" id="projects">
+        <Projects />
+      </section>
+      <section className="stacksSection" id="stacks">
+        <Stacks />
+      </section>
+      <section className="contactSection" id="contact">
+        <Contact />
+      </section>
       <ToTopButton />
       {/* </Box>
       </Box> */}

@@ -47,10 +47,20 @@ h6 {
   padding: 8px;
 } */
 
-.nav-link-anchor {
+.navigation ul li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.navigation ul li a {
   text-decoration: none;
   color: beige;
-  font-family: "Nanum-Gothic", sans-serif;
+  font-family: "SBAggroB", sans-serif;
+  text-transform: uppercase;
+}
+
+.navigation ul li a:hover {
+  color: #efc443;
 }
 
 .site-footer {
@@ -93,6 +103,13 @@ section:nth-child(1) {
   height: 100vh;
 }
 
+.welcome-area {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 section:nth-child(2) {
   /* background: #037e8c; */
 }
@@ -127,12 +144,6 @@ section:nth-child(4) {
   90% {
     margin-left: calc(-100vw * 3);
   }
-}
-
-.welcomeSection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .divider {

@@ -9,7 +9,6 @@ function App() {
   return (
     <Box className="container">
       <Header />
-      {/* <LeftMenu /> */}
       <Contents />
       <Footer />
     </Box>
