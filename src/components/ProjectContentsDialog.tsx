@@ -60,7 +60,7 @@ function ProjectContentsDialog(props: ProjectContentsDialogProps) {
             <Typography
               variant="h5"
               sx={{
-                color: "#efc443",
+                color: "#ffeb3c",
                 fontFamily: "'SBAggroB', sans-serif",
               }}
             >
@@ -99,7 +99,20 @@ function ProjectContentsDialog(props: ProjectContentsDialogProps) {
             <figcaption>{props.meta.title}</figcaption>
           </figure>
         </Box>
-        <Box sx={{ fontSize: "1rem", lineHeight: "1.2rem" }}>
+        <Box
+          sx={{
+            fontSize: "1rem",
+            lineHeight: "1.2rem",
+            "& a": {
+              fontWeight: "bold",
+              color: "lime",
+            },
+            "& strong": {
+              fontWeight: "bold",
+              color: "#ffeb3c",
+            },
+          }}
+        >
           <ReactMarkdown remarkPlugins={[remarkGfm]} children={contents} />
         </Box>
       </DialogContent>

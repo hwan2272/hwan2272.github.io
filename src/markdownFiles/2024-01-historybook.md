@@ -4,7 +4,7 @@
 {"layout": "post"},
 {"imageLink": "https://github.com/hwan2272/hwan2272.github.io/assets/65170244/1484641e-2ff8-45d1-9ddd-1bdf48ef4616"},
 {"tags": "PROJECT/개인"},
-{"period": "2024. 01"},
+{"period": "2024.01"},
 {"description": "HistoryBook : 개인 포트폴리오 사이트"},
 {"serviceToNumber": "12개"},
 {"unit": "프로젝트 항목"},
@@ -18,7 +18,7 @@
 
 #### 기간
 
-- [2024. 01] (ING)
+- [2024.01] (ING)
 
 #### 업무 내역
 
@@ -28,10 +28,10 @@
 
 #### 잘한것
 
-- 포트폴리오 사이트의 직접개발 시도, 적용
-- github action을 사용한 자동 CI/CD 적용
-- material-ui 컴포넌트 UI 구성
-- testing 코드 도입 (react-testing-library, jest, vitest)
+- **주도 개발** : 개인 프로젝트
+- **자기 개발** : 포트폴리오 사이트의 직접개발 시도, 적용
+- **개발 확장** : github action을 사용한 자동 CI/CD 적용
+- **개발 확장** : testing 코드 도입 (react-testing-library, jest, vitest)
 
 #### 배운것
 

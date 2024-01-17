@@ -46,16 +46,20 @@ function TimelineContentProjectCard(props: mdFileContents) {
           <Grid item xs={12} md={8}>
             <Box className="project-card-details-pane">
               <Typography
-                variant="caption"
                 sx={{
-                  color: "#efc443",
+                  color: "#ffeb3c",
                   fontFamily: "'SBAggroB', sans-serif",
                   fontSize: "13pt",
                 }}
               >
                 {meta.title}
               </Typography>
-              <Box sx={{ fontSize: "10pt", lineHeight: "1rem" }}>
+              <Box
+                sx={{
+                  fontSize: "10pt",
+                  lineHeight: "1rem",
+                }}
+              >
                 <ReactMarkdown
                   remarkPlugins={[remarkGfm]}
                   children={"### " + meta.description}
