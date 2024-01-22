@@ -1,3 +1,9 @@
+# 포트폴리오 페이지
+
+# 트러블슈팅 정리중 - https://hwan2272.notion.site/hwan2272/c633e7b5314c46eb8b1395c6c4a46c11?v=b528706142b24f6a92024ab8e3821a18&p=65a5212d34644ee5b03d317b5041ed1d&pm=s
+
+---
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
