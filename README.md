@@ -1,6 +1,6 @@
 # 포트폴리오 페이지
 
-# 트러블슈팅 정리중 - [https://hwan2272.notion.site/hwan2272/c633e7b5314c46eb8b1395c6c4a46c11](https://hwan2272.notion.site/c633e7b5314c46eb8b1395c6c4a46c11?v=b528706142b24f6a92024ab8e3821a18&pvs=4)
+# 트러블슈팅 정리중 - [hwan2272 TechBlog(Notion)](https://hwan2272.notion.site/hwan2272/c633e7b5314c46eb8b1395c6c4a46c11)
 
 ---
 
