@@ -60,6 +60,7 @@ function MyInfo() {
             있습니다. <br />
             누가 MBTI를 물어보면 사람에 따라 둘중에 하나만 얘기합니다.
           </Typography>
+          <br />
         </Box>
         <hr className="divider" />
         <Box className="myhistory-pane">
