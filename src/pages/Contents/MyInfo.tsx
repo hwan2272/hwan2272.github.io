@@ -60,14 +60,14 @@ function MyInfo() {
             있습니다. <br />
             누가 MBTI를 물어보면 사람에 따라 둘중에 하나만 얘기합니다.
           </Typography>
-          <br />
+          {/* <br />
           <Typography>
             TMI2 : 어쩌다 보니 Frontend/Backend 다 하는 FullStack 개발자라고
             할수도 있는 인생인데 <br />
             'FullStack'은 조금만 더하면 'Stack Overflow'가 될것 같아보이는
             단어라, <br />
             누가 직업을 물어보면 그냥 웹개발자라고 대답합니다.
-          </Typography>
+          </Typography> */}
         </Box>
         <hr className="divider" />
         <Box className="myhistory-pane">
