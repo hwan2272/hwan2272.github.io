@@ -9,7 +9,7 @@ function Header() {
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
-        background: "linear-gradient(0deg, rgb(115,86,31) 0%,#9c27b0 100%)",
+        background: "linear-gradient(0deg, rgb(61 55 55) 0%, rgb(2 2 2) 100%)",
         color: "beige",
         opacity: 0.8,
         width: "100vw",
