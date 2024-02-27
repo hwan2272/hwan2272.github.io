@@ -26,41 +26,19 @@ function MyInfo() {
         </Box>
         <Box className="myinfo-title-pane">
           <Typography>
-            안녕하세요. INTFJ(인티프제) 박정환입니다.
-            <br />
-            개발경력은 Frontend 근 3년/ Backend 9년 정도 됩니다.
+            안녕하세요. 학습과 노력의 개발자 hwan2272 박정환입니다.
           </Typography>
         </Box>
         <hr className="divider" />
         <Box className="myinfo-pane">
-          <Typography>현재는 Frontend를 주로 합니다.</Typography>
-          <br />
           <Typography>
-            Frontend 중에서는 React를 주로 다루며,
+            1. 회사의 모든 기술을 흡수하고 싶다는 생각으로 평균 3년 반 동안 재직했습니다.
             <br />
-            최근에는 material-ui, react-query, react-hookform, yup 등의 보조
-            라이브러리 조합 구성을 사용했습니다.
-            <br />그 결과 react-query과 yup에 능숙해지게 되었습니다.
+            2. 여러 성과를 거두었으며, 이런 성과를 내기 위한 과정에서 필수적인
+            다른 개발자들 및 타 직군과의 원활한 협업은 오로지 타인의 일 또한 이해하기 위한 학습과 노력의 결과물입니다.
+            <br />
+            3. 이렇듯 '인내와 끈기', '학습과 노력'으로 계속해서 발전하도록 하겠습니다. 감사합니다.
           </Typography>
-          <br />
-          <Typography>
-            Backend 경력이 사실 더 많으나,
-            <br />
-            화면에서 바로 퍼포먼스를 확인할 수 있는 Frontend를 더 좋아하는
-            편입니다.
-            <br />
-            (애초에 WEB개발에 들어오게 된 계기가 교육센터에서 JAVA/JSP를 배우며
-            JSP단에서 화면 변화가 느껴지는게 좋아서였습니다.)
-            <br />
-            좋아하고, 앞으로 더 잘하고 싶습니다.
-          </Typography>
-          <br />
-          <Typography>
-            TMI : MBTI는 INTJ와 INFJ의 비율이 비슷하여 INTFJ로 생각하고
-            있습니다. <br />
-            누가 MBTI를 물어보면 사람에 따라 둘중에 하나만 얘기합니다.
-          </Typography>
-          <br />
         </Box>
         <hr className="divider" />
         <Box className="myhistory-pane">
