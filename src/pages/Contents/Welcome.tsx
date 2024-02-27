@@ -28,24 +28,6 @@ function Welcome() {
           >
             -Park Jeonghwan-
           </Typography>
-          <Typography
-            variant="h3"
-            sx={{
-              fontFamily: "'Pretendard', sans-serif",
-              fontSize: "20pt",
-            }}
-          >
-            WEB Developer (Frontend/Backend)
-          </Typography>
-          <Typography
-            variant="h3"
-            sx={{
-              fontFamily: "'Pretendard', sans-serif",
-              fontSize: "20pt",
-            }}
-          >
-            반응형 작업중...
-          </Typography>
         </Box>
       </Box>
     </Box>
