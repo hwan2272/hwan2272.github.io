@@ -31,10 +31,9 @@ function Welcome() {
           <Typography
             variant="h3"
             sx={{
-              color: "rgb(211 206 190)",
-              fontFamily: "'SBAggroB', sans-serif",
+              color: "beige",
+              fontFamily: "'Nanum-Gothic', sans-serif",
               fontSize: "13pt",
-              fontWeight: "0",
             }}
           >
             스크롤을 움직이시거나, 상단 메뉴를 클릭하여 주세요.
