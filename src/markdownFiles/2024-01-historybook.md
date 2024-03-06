@@ -2,7 +2,7 @@
 {"codeKey": "historybook_202401"},
 {"title": "HistoryBook"},
 {"layout": "post"},
-{"imageLink": "https://github.com/hwan2272/hwan2272.github.io/assets/65170244/29d55a1c-1cde-48e8-85a4-e9f38a36b852"},
+{"imageLink": "https://github.com/hwan2272/hwan2272/assets/65170244/eb9acb67-9892-40d6-84c5-ea050e7fb034"},
 {"tags": "PROJECT/개인"},
 {"period": "2024.01"},
 {"description": "HistoryBook : 개인 포트폴리오 사이트"},
