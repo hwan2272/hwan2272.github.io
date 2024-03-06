@@ -32,8 +32,8 @@ function Welcome() {
             variant="h3"
             sx={{
               color: "beige",
-              fontFamily: "'Nanum-Gothic', sans-serif",
-              fontSize: "13pt",
+              fontFamily: "'S-CoreDream-3Light', sans-serif",
+              fontSize: "12pt",
             }}
           >
             스크롤을 움직이시거나, 상단 메뉴를 클릭하여 주세요.
