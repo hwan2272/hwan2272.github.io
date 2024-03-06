@@ -77,7 +77,7 @@ function TimelineContentProjectCard(props: mdFileContents) {
                   &nbsp;
                   {meta.unit}
                 </p>
-                <Typography>...[more]</Typography>
+                <Typography>...[ 클릭하여 상세보기 ]</Typography>
               </Box>
             </Box>
           </Grid>
