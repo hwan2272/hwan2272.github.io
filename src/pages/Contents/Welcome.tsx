@@ -37,7 +37,7 @@ function Welcome() {
               fontWeight: "0",
             }}
           >
-            -환영합니다. 스크롤을 움직이시거나, 상단 메뉴를 클릭하여 주세요.-
+            스크롤을 움직이시거나, 상단 메뉴를 클릭하여 주세요.
           </Typography>
         </Box>
       </Box>
