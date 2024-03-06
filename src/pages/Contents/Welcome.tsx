@@ -29,11 +29,12 @@ function Welcome() {
             -Park Jeonghwan-
           </Typography>
           <Typography
-            variant="h6"
+            variant="h3"
             sx={{
-              color: "#efc443",
+              color: "rgb(211 206 190)",
               fontFamily: "'SBAggroB', sans-serif",
-              fontSize: "20pt",
+              fontSize: "13pt",
+              fontWeight: "0",
             }}
           >
             -환영합니다. 스크롤을 움직이시거나, 상단 메뉴를 클릭하여 주세요.-
