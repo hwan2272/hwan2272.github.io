@@ -2,7 +2,7 @@
 {"codeKey": "hdmscamel_202304"},
 {"title": "Hdms Camel"},
 {"layout": "post"},
-{"imageLink": "https://github.com/hwan2272/hwan2272/assets/65170244/eac2ed27-2285-4ce9-b240-0df5114ba20a"},
+{"imageLink": "https://github.com/hwan2272/hwan2272/assets/65170244/74c8f47b-0cfb-4001-a79d-b09b88143e85"},
 {"tags": "PROJECT/현업"},
 {"period": "2023.04 ~ 2024.01"},
 {"description": "Hdms Camel : 임상연구사업 관리 통합플랫폼 HDMS 서비스 Camel버전"},
