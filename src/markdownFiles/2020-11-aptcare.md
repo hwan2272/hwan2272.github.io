@@ -2,7 +2,7 @@
 {"codeKey": "aptcare_202011"},
 {"title": "아파트청약케어"},
 {"layout": "post"},
-{"imageLink": "https://github.com/hwan2272/hwan2272/assets/65170244/cf486982-a8d7-44a3-b24d-6c59d61fd52f"},
+{"imageLink": "https://github.com/hwan2272/hwan2272/assets/65170244/eac2ed27-2285-4ce9-b240-0df5114ba20a"},
 {"tags": "PROJECT/현업"},
 {"period": "2020.11 ~ 2022.04"},
 {"description": "아파트청약케어 : 아파트관련 이통사 부가서비스"},
