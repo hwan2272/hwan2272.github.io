@@ -8,7 +8,7 @@ function MyInfo() {
         <Typography
           variant="h2"
           sx={{
-            color: "dimgray",
+            color: "#FFBE98",
             fontFamily: "'SBAggroB', sans-serif",
             fontSize: "23pt",
           }}
@@ -35,7 +35,7 @@ function MyInfo() {
           >
             <Typography
               sx={{
-                color: "dimgray",
+                color: "#FFBE98",
                 fontFamily: "'SBAggroB', sans-serif",
                 fontSize: "20pt",
               }}
