@@ -8,7 +8,7 @@ function Stacks() {
         <Typography
           variant="h2"
           sx={{
-            color: "#efc443",
+            color: "#fda403",
             fontFamily: "'SBAggroB', sans-serif",
             fontSize: "23pt",
           }}
@@ -23,10 +23,9 @@ function Stacks() {
           <Box>
             <Box
               sx={{
-                border: "2px groove orange",
+                border: "2px groove #e8751a",
                 borderRadius: 2,
                 padding: 2,
-                backgroundColor: "dimgray",
               }}
             >
               <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
@@ -38,10 +37,9 @@ function Stacks() {
           <Typography>주요 Skills</Typography>
           <Box
             sx={{
-              border: "2px groove orange",
+              border: "2px groove #e8751a",
               borderRadius: 2,
               padding: 2,
-              backgroundColor: "dimgray",
             }}
           >
             <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
@@ -68,10 +66,9 @@ function Stacks() {
           <Typography>기타 Skills</Typography>
           <Box
             sx={{
-              border: "2px groove orange",
+              border: "2px groove #e8751a",
               borderRadius: 2,
               padding: 2,
-              backgroundColor: "dimgray",
             }}
           >
             <img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" />

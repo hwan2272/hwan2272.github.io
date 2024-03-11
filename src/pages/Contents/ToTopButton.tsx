@@ -33,8 +33,8 @@ function ToTopButton() {
           bottom: "5%",
           textAlign: "center",
           zIndex: 1,
-          border: "5px outset goldenrod",
-          backgroundColor: "dimgray",
+          backgroundColor: "whitesmoke",
+          border: "5px outset #fda403",
           borderRadius: 2,
         }}
       >
@@ -44,7 +44,6 @@ function ToTopButton() {
           sx={{
             fontFamily: "'Nanum-Gothic', sans-serif",
             fontSize: "11pt",
-            color: "beige",
           }}
         >
           <NavigationOutlinedIcon />

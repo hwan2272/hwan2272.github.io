@@ -1,17 +1,15 @@
 .stacks-title-pane {
-  border: 1px solid rgba(97, 97, 97, 0.2);
+  border: 1px solid #e8751a;
   border-radius: 16px;
   padding: 16px;
-  background-color: black;
   margin: 0 2rem;
   text-align: left;
 }
 
 .stacks-pane {
-  border: 1px solid rgba(97, 97, 97, 0.2);
+  border: 1px solid #e8751a;
   border-radius: 16px;
   padding: 16px;
-  background-color: black;
   margin: 0 2rem;
   text-align: left;
 }

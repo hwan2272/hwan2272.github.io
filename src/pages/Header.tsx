@@ -9,9 +9,7 @@ function Header() {
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
-        background: "linear-gradient(0deg, rgb(61 55 55) 0%, rgb(2 2 2) 100%)",
-        color: "beige",
-        opacity: 0.8,
+        background: "linear-gradient(0deg, #ffffffc2, #fff)",
         width: "100vw",
         margin: "0 auto",
       }}
@@ -29,7 +27,7 @@ function Header() {
               href="/"
               style={{
                 textDecoration: "none",
-                color: "#efc443",
+                color: "#fda403",
               }}
             >
               HistoryBook

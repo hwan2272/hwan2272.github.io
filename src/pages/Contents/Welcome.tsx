@@ -21,22 +21,12 @@ function Welcome() {
           <Typography
             variant="h3"
             sx={{
-              color: "#efc443",
+              color: "#fda403",
               fontFamily: "'SBAggroB', sans-serif",
               fontSize: "20pt",
             }}
           >
             Park Jeonghwan's PortFolio
-          </Typography>
-          <Typography
-            variant="h3"
-            sx={{
-              color: "beige",
-              fontFamily: "'S-CoreDream-3Light', sans-serif",
-              fontSize: "12pt",
-            }}
-          >
-            - 스크롤을 움직이시거나, 상단 메뉴를 클릭하여 주세요. -
           </Typography>
         </Box>
       </Box>

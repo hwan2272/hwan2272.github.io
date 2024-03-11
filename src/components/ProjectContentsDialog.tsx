@@ -43,8 +43,6 @@ function ProjectContentsDialog(props: ProjectContentsDialogProps) {
       PaperProps={{
         style: {
           minHeight: "100vh",
-          backgroundColor: "rgb(97,97,97)",
-          color: "whitesmoke",
         },
       }}
     >
@@ -60,7 +58,7 @@ function ProjectContentsDialog(props: ProjectContentsDialogProps) {
             <Typography
               variant="h5"
               sx={{
-                color: "#ffeb3c",
+                color: "#fda403",
                 fontFamily: "'SBAggroB', sans-serif",
               }}
             >
@@ -80,12 +78,7 @@ function ProjectContentsDialog(props: ProjectContentsDialogProps) {
               {meta.tags}
             </Box> */}
             <Box>
-              <IconButton
-                onClick={onClose}
-                sx={{
-                  color: "whitesmoke",
-                }}
-              >
+              <IconButton onClick={onClose}>
                 <CloseOutlinedIcon />
               </IconButton>
             </Box>
@@ -105,11 +98,11 @@ function ProjectContentsDialog(props: ProjectContentsDialogProps) {
             lineHeight: "1.2rem",
             "& a": {
               fontWeight: "bold",
-              color: "lime",
+              color: "#5356FF",
             },
             "& strong": {
               fontWeight: "bold",
-              color: "#ffeb3c",
+              color: "#fda403",
             },
           }}
         >

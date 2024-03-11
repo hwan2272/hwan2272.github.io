@@ -1,14 +1,13 @@
 .project-pane {
-  border: 1px solid rgba(97, 97, 97, 0.2);
+  border: 1px solid #e8751a;
   border-radius: 16px;
   padding: 16px;
-  background-color: black;
   margin: 0 2rem;
 }
 
 .project-card-pane {
-  background-color: #039bbd;
-  border: 1px solid rgba(97, 97, 97, 0.2);
+  background-color: #eabe6c;
+  border: 1px solid #e8751a;
   border-radius: 16px;
   padding: 8px;
   display: flex;
@@ -16,8 +15,7 @@
 
 .project-card-pane:hover {
   cursor: pointer;
-  background-color: rgb(17, 170, 241);
-  box-shadow: 0 5px 20px rgba(0, 251, 251, 0.8);
+  box-shadow: 0 5px 20px #eabe6c;
 }
 
 .project-card-image {
@@ -43,10 +41,10 @@
 }
 
 .project-card-details-pane {
-  border: 1px solid rgba(97, 97, 97, 0.2);
+  border: 1px solid #e8751a;
   border-radius: 16px;
   padding: 12px;
-  background-color: black;
+  background-color: #fff;
   text-align: left;
   font-size: 9pt;
 }
@@ -55,7 +53,7 @@
   font-family: "Nanum-Gothic", sans-serif;
   font-size: 13pt;
   text-align: center;
-  color: beige;
+  /* color: beige; */
 }
 
 .project-card-dialog-image {

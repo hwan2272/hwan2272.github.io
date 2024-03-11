@@ -6,9 +6,6 @@ import { BrowserRouter } from "react-router-dom";
 const theme = createTheme({
   typography: {
     fontFamily: "'S-CoreDream-3Light', sans-serif",
-    allVariants: {
-      color: "beige",
-    },
   },
 });
 

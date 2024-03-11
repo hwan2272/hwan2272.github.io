@@ -9,7 +9,7 @@ function Projects() {
         <Typography
           variant="h2"
           sx={{
-            color: "#efc443",
+            color: "#fda403",
             fontFamily: "'SBAggroB', sans-serif",
             fontSize: "23pt",
           }}

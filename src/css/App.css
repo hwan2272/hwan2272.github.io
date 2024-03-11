@@ -54,13 +54,13 @@ h6 {
 
 .navigation ul li a {
   text-decoration: none;
-  color: beige;
+  color: #fda403;
   font-family: "SBAggroB", sans-serif;
   text-transform: uppercase;
 }
 
 .navigation ul li a:hover {
-  color: #efc443;
+  color: #e8751a;
 }
 
 .site-footer {
@@ -86,17 +86,16 @@ h6 {
 section {
   width: 100vw;
   min-height: 400px;
-  background-image: linear-gradient(0deg, #4b494b, #000000ad),
-    url("https://images.pexels.com/photos/6373293/pexels-photo-6373293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  
+  background-color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.7;
 }
 
 section:nth-child(1) {
-  /* background: #d93b65; */
+  background-image: linear-gradient(0deg, #ffffffc2, #fff),
+    url("https://images.pexels.com/photos/6373293/pexels-photo-6373293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
   height: 100vh;
 }
 
@@ -108,15 +107,12 @@ section:nth-child(1) {
 }
 
 section:nth-child(2) {
-  /* background: #037e8c; */
 }
 
 section:nth-child(3) {
-  /* background: #36bf66; */
 }
 
 section:nth-child(4) {
-  /* background: #d9d055; */
 }
 
 @keyframes slide {
@@ -145,7 +141,7 @@ section:nth-child(4) {
 
 .divider {
   width: 0;
-  border: 2px solid goldenrod;
+  border: 2px solid #e8751a;
   /* animation: separator-width 5s ease-out infinite forwards; */
   animation: separator-width 5s ease-out forwards;
 }

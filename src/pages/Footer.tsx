@@ -5,9 +5,7 @@ function Footer() {
     <footer>
       <Box
         sx={{
-          background: "dimgray",
           textAlign: "center",
-          opacity: 0.8,
           width: "100vw",
         }}
       >
