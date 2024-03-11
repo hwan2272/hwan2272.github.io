@@ -18,15 +18,15 @@ interface mdFileContents {
 
 function ProjectCard(props: mdFileContents) {
   const { meta, contents } = props;
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
 
-  const handleOpenContentsDialog = () => {
-    setOpen(true);
-  };
+  // const handleOpenContentsDialog = () => {
+  //   setOpen(true);
+  // };
 
-  const handleClose = () => {
-    setOpen(false);
-  };
+  // const handleClose = () => {
+  //   setOpen(false);
+  // };
 
   return (
     <Box>
