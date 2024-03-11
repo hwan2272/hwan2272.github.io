@@ -8,6 +8,7 @@ function Stacks() {
         <Typography
           variant="h2"
           sx={{
+            color: "#35374B",
             fontFamily: "'SBAggroB', sans-serif",
             fontSize: "23pt",
           }}
