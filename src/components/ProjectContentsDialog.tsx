@@ -58,7 +58,7 @@ function ProjectContentsDialog(props: ProjectContentsDialogProps) {
             <Typography
               variant="h5"
               sx={{
-                color: "#fda403",
+                color: "#FDA403",
                 fontFamily: "'SBAggroB', sans-serif",
               }}
             >
@@ -102,7 +102,7 @@ function ProjectContentsDialog(props: ProjectContentsDialogProps) {
             },
             "& strong": {
               fontWeight: "bold",
-              color: "#fda403",
+              color: "#FFBE98",
             },
           }}
         >

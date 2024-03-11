@@ -47,7 +47,7 @@ function TimelineContentProjectCard(props: mdFileContents) {
             <Box className="project-card-details-pane">
               <Typography
                 sx={{
-                  color: "#fda403",
+                  color: "#FDA403",
                   fontFamily: "'SBAggroB', sans-serif",
                   fontSize: "13pt",
                 }}
@@ -67,7 +67,7 @@ function TimelineContentProjectCard(props: mdFileContents) {
                 <p>
                   <span
                     style={{
-                      color: "#e8751a",
+                      color: "#E2BFB3",
                       fontFamily: "'SBAggroB', sans-serif",
                       fontSize: "12pt",
                     }}

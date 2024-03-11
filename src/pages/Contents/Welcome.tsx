@@ -11,6 +11,7 @@ function Welcome() {
             variant="h2"
             sx={{
               fontFamily: "'Nanum-Gothic', sans-serif",
+              opacity: 0.5,
             }}
           >
             W E L C O M E
@@ -21,7 +22,7 @@ function Welcome() {
           <Typography
             variant="h3"
             sx={{
-              color: "#fda403",
+              color: "#FFBE98",
               fontFamily: "'SBAggroB', sans-serif",
               fontSize: "20pt",
             }}

@@ -34,7 +34,7 @@ function ToTopButton() {
           textAlign: "center",
           zIndex: 1,
           backgroundColor: "whitesmoke",
-          border: "5px outset #fda403",
+          border: "5px outset #FFBE98",
           borderRadius: 2,
         }}
       >

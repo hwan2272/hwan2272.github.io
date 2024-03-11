@@ -8,7 +8,7 @@ function Stacks() {
         <Typography
           variant="h2"
           sx={{
-            color: "#fda403",
+            color: "#FFBE98",
             fontFamily: "'SBAggroB', sans-serif",
             fontSize: "23pt",
           }}
@@ -23,7 +23,7 @@ function Stacks() {
           <Box>
             <Box
               sx={{
-                border: "2px groove #e8751a",
+                border: "2px groove #E2BFB3",
                 borderRadius: 2,
                 padding: 2,
               }}
@@ -37,7 +37,7 @@ function Stacks() {
           <Typography>주요 Skills</Typography>
           <Box
             sx={{
-              border: "2px groove #e8751a",
+              border: "2px groove #E2BFB3",
               borderRadius: 2,
               padding: 2,
             }}
@@ -66,7 +66,7 @@ function Stacks() {
           <Typography>기타 Skills</Typography>
           <Box
             sx={{
-              border: "2px groove #e8751a",
+              border: "2px groove #E2BFB3",
               borderRadius: 2,
               padding: 2,
             }}

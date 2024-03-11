@@ -1,13 +1,13 @@
 .project-pane {
-  border: 1px solid #e8751a;
+  border: 1px solid #e2bfb3;
   border-radius: 16px;
   padding: 16px;
   margin: 0 2rem;
 }
 
 .project-card-pane {
-  background-color: #eabe6c;
-  border: 1px solid #e8751a;
+  background-color: #f7ded0;
+  border: 1px solid #e2bfb3;
   border-radius: 16px;
   padding: 8px;
   display: flex;
@@ -15,7 +15,7 @@
 
 .project-card-pane:hover {
   cursor: pointer;
-  box-shadow: 0 5px 20px #eabe6c;
+  box-shadow: 0 5px 20px #f7ded0;
 }
 
 .project-card-image {
@@ -41,7 +41,7 @@
 }
 
 .project-card-details-pane {
-  border: 1px solid #e8751a;
+  border: 1px solid #e2bfb3;
   border-radius: 16px;
   padding: 12px;
   background-color: #fff;

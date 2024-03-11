@@ -9,7 +9,7 @@
 }
 
 .myinfo-title-pane {
-  border: 1px solid #e8751a;
+  border: 1px solid #e2bfb3;
   border-radius: 16px;
   padding: 16px;
   margin: 0 2rem;
@@ -17,7 +17,7 @@
 }
 
 .myinfo-pane {
-  border: 1px solid #e8751a;
+  border: 1px solid #e2bfb3;
   border-radius: 16px;
   padding: 16px;
   margin: 0 2rem;
@@ -25,7 +25,7 @@
 }
 
 .myhistory-pane {
-  border: 1px solid #e8751a;
+  border: 1px solid #e2bfb3;
   border-radius: 16px;
   margin: 0 2rem;
 
@@ -57,7 +57,7 @@
   }
 
   table p.company {
-    color: #e8751a;
+    color: #e2bfb3;
   }
 
   table p.subtext {
