@@ -1,6 +1,5 @@
 import { Box, Grid, Typography } from "@mui/material";
 import ReactMarkdown from "react-markdown";
-import { useState } from "react";
 import remarkGfm from "remark-gfm";
 
 interface mdFileContents {
@@ -18,15 +17,6 @@ interface mdFileContents {
 
 function ProjectCard(props: mdFileContents) {
   const { meta, contents } = props;
-  // const [open, setOpen] = useState(false);
-
-  // const handleOpenContentsDialog = () => {
-  //   setOpen(true);
-  // };
-
-  // const handleClose = () => {
-  //   setOpen(false);
-  // };
 
   return (
     <Box>
