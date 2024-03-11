@@ -8,7 +8,6 @@ function Contact() {
         <Typography
           variant="h2"
           sx={{
-            color: "#FFBE98",
             fontFamily: "'SBAggroB', sans-serif",
             fontSize: "23pt",
           }}

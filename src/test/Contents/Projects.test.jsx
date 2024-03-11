@@ -31,19 +31,3 @@ test("Layout Element Check Detail : [Contents > Projects] : projectsSection > pr
   );
   expect(targetElement).not.toBeNull();
 });
-
-test("Layout Element Check Detail : [Contents > Projects] : projectsSection > project-pane > project-card-pane > project-card-details-pane", () => {
-  const { container } = render(<Projects />);
-  const targetElement = container.querySelector(
-    ".projectsSection .project-pane .project-card-pane .project-card-details-pane"
-  );
-  expect(targetElement).not.toBeNull();
-});
-
-test("Layout Element Check Detail : [Contents > Projects] : projectsSection > project-pane > project-card-subtext", () => {
-  const { container } = render(<Projects />);
-  const targetElement = container.querySelector(
-    ".projectsSection .project-pane .project-card-subtext"
-  );
-  expect(targetElement).not.toBeNull();
-});

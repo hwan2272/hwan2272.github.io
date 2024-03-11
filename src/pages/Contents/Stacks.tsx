@@ -8,7 +8,6 @@ function Stacks() {
         <Typography
           variant="h2"
           sx={{
-            color: "#FFBE98",
             fontFamily: "'SBAggroB', sans-serif",
             fontSize: "23pt",
           }}
@@ -24,6 +23,7 @@ function Stacks() {
             <Box
               sx={{
                 border: "2px groove #E2BFB3",
+                backgroundColor: "whitesmoke",
                 borderRadius: 2,
                 padding: 2,
               }}
@@ -38,6 +38,7 @@ function Stacks() {
           <Box
             sx={{
               border: "2px groove #E2BFB3",
+              backgroundColor: "whitesmoke",
               borderRadius: 2,
               padding: 2,
             }}
@@ -67,6 +68,7 @@ function Stacks() {
           <Box
             sx={{
               border: "2px groove #E2BFB3",
+              backgroundColor: "whitesmoke",
               borderRadius: 2,
               padding: 2,
             }}

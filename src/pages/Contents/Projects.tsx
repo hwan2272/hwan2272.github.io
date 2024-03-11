@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import "../../css/Contents/Projects.css";
-import AlternateTimeline from "../../components/AlternateTimeline";
+import ProjectMdFileReader from "../../components/ProjectMdFileReader";
 
 function Projects() {
   return (
@@ -9,7 +9,6 @@ function Projects() {
         <Typography
           variant="h2"
           sx={{
-            color: "#FFBE98",
             fontFamily: "'SBAggroB', sans-serif",
             fontSize: "23pt",
           }}
@@ -20,7 +19,7 @@ function Projects() {
       <hr className="divider" />
       <Box>
         <Box className="project-pane">
-          <AlternateTimeline />
+          <ProjectMdFileReader />
         </Box>
       </Box>
     </Box>

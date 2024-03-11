@@ -27,7 +27,7 @@ function Header() {
               href="/"
               style={{
                 textDecoration: "none",
-                color: "#FFBE98",
+                color: "black",
               }}
             >
               HistoryBook

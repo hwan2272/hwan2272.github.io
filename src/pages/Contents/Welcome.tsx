@@ -22,7 +22,6 @@ function Welcome() {
           <Typography
             variant="h3"
             sx={{
-              color: "#FFBE98",
               fontFamily: "'SBAggroB', sans-serif",
               fontSize: "20pt",
             }}
