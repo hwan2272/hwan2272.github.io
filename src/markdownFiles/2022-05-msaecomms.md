@@ -24,8 +24,4 @@
 
 - MSA 적용 SpringBoot Backend개발 (Inflarn 강의보며 코딩)
 
-#### 최종 성과
-
-- **백엔드단 MSA 구성 파악, 자기개발로 인한 발전**
-
 ---

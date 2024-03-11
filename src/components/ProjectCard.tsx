@@ -41,15 +41,15 @@ function ProjectCard(props: mdFileContents) {
             </Box>
             <Box
               sx={{
-                fontSize: "0.8rem",
-                lineHeight: "1rem",
+                fontSize: "1rem",
+                lineHeight: "1.2rem",
                 "& a": {
                   fontWeight: "bold",
                   color: "#5356FF",
                 },
                 "& strong": {
                   fontWeight: "bold",
-                  fontSize: "1rem",
+                  fontSize: "1.2rem",
                 },
               }}
             >
