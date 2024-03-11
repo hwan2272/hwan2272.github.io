@@ -24,7 +24,7 @@ function Welcome() {
             sx={{
               fontFamily: "'SBAggroB', sans-serif",
               fontSize: "20pt",
-              color: "#35374B",
+              color: "dimgray",
             }}
           >
             Park Jeonghwan's PortFolio

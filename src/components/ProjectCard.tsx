@@ -23,7 +23,7 @@ function ProjectCard(props: mdFileContents) {
       <Box className="project-card-pane">
         <Typography
           sx={{
-            color: "#35374B",
+            color: "dimgray",
             fontFamily: "'SBAggroB', sans-serif",
             fontSize: "20pt",
             mb: 1,
