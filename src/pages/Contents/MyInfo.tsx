@@ -24,25 +24,35 @@ function MyInfo() {
             alt="Park Jeonghwan"
           />
         </Box>
-        <Box className="myinfo-title-pane">
-          <Typography>
-            안녕하세요. 학습과 노력의 개발자 hwan2272 박정환입니다.
-          </Typography>
-        </Box>
-        <hr className="divider" />
         <Box className="myinfo-pane">
-          <Typography>
-            세줄소개 드립니다.
-            <br />
-            1. 회사의 모든 기술을 흡수하고 싶다는 생각으로 평균 3년 반 동안
-            재직했습니다.
-            <br />
-            2. 나의 일 뿐만이 아닌, 타인의 일 또한 이해하며 협업에 노력한 결과
-            많은 성과를 거두었습니다.
-            <br />
-            3. 이렇듯 '인내와 끈기', '학습과 노력'으로 계속해서 발전할 수 있다고
-            생각합니다. 감사합니다.
-          </Typography>
+          <Box
+            sx={{
+              border: "2px groove #E2BFB3",
+              backgroundColor: "whitesmoke",
+              borderRadius: 2,
+              padding: 2,
+            }}
+          >
+            <Typography
+              sx={{
+                color: "#35374B",
+                fontFamily: "'SBAggroB', sans-serif",
+                fontSize: "20pt",
+              }}
+            >
+              3줄 소개
+            </Typography>
+            <Typography>
+              1. 회사의 모든 기술을 흡수하고 싶다는 생각으로 평균 3년 반 동안
+              재직했습니다.
+              <br />
+              2. 나의 일 뿐만이 아닌, 타인의 일 또한 이해하며 협업에 노력한 결과
+              많은 성과를 거두었습니다.
+              <br />
+              3. 이렇듯 '인내와 끈기', '학습과 노력'으로 계속해서 발전할 수
+              있다고 생각합니다. 감사합니다.
+            </Typography>
+          </Box>
         </Box>
         <hr className="divider" />
         <Box className="myhistory-pane">

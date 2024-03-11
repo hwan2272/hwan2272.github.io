@@ -8,10 +8,10 @@ function Navigation() {
           <a href="#myinfo">introduce</a>
         </li>
         <li>
-          <a href="#projects">projects</a>
+          <a href="#stacks">stacks</a>
         </li>
         <li>
-          <a href="#stacks">stacks</a>
+          <a href="#projects">projects</a>
         </li>
         <li>
           <a href="#contact">contact</a>

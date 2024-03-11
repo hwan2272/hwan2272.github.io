@@ -2,9 +2,9 @@ import { Box } from "@mui/material";
 import Contact from "./Contact";
 import MyInfo from "./MyInfo";
 import Projects from "./Projects";
-import Welcome from "./Welcome";
 import Stacks from "./Stacks";
 import ToTopButton from "./ToTopButton";
+import Welcome from "./Welcome";
 
 function Contents() {
   return (
@@ -23,11 +23,11 @@ function Contents() {
       <section className="myInfoSection" id="myinfo">
         <MyInfo />
       </section>
-      <section className="projectsSection" id="projects">
-        <Projects />
-      </section>
       <section className="stacksSection" id="stacks">
         <Stacks />
+      </section>
+      <section className="projectsSection" id="projects">
+        <Projects />
       </section>
       <section className="contactSection" id="contact">
         <Contact />
