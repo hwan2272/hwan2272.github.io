@@ -47,6 +47,7 @@ function ProjectCard(props: mdFileContents) {
             },
             "& strong": {
               fontWeight: "bold",
+              textDecoration: "underline",
             },
           }}
         >

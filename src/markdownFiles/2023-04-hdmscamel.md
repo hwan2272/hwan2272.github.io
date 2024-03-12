@@ -14,26 +14,32 @@
 
 ### 설명
 
-- Frontend 개발
-- 기술스택 : React 18및 관련 라이브러리 (Material-UI, React-Query, React-Hookform, yup 외 다수)
-- 백오피스형 시스템 구성. 내부 서비스 다수
+- 임상연구사업 관리 통합플랫폼 HDMS 서비스의 Camel(C)버전
+- 기존에 Alpaca(A), Buffalo(B) 등 레거시 서비스들이 존재하며, 점진적 개선을 위해 매년 상위 버전을 개발을 목적으로 하고 있음
 
-#### 기간
+### 기간
 
 - [2023.04 ~ 2024.01] (10개월)
 
-#### 업무 내역
+### 인원 및 기여도
 
-- 서비스 Frontend단 개발 담당
-- material-ui 및 react-hookform, yup validation, react-query등 최신형 라이브러리의 각종 케이스 경험의 조합 숙달
-- eCrf를 위한 구성 전반
-- 서비스내 에디터 교체건 담당. 현황 파악 및 조사하여 sunEditor로 대체 성공진행
-- mutation 등 상용 서비스 오픈
-- PRO, Imaging 등 HDMS의 핵심 카테고리 대메뉴 개발
-- 연구자 사용화면 위주의 리뉴얼 진행 (ecrf, PRO, Imaging, Safebox등)
+- 현업 프로젝트 (기본 프론트엔드 개발 2인, 백엔드 개발 1인. 급박 일정시 +1인)
+- 기여도 : **70%**
 
-#### 최종 성과
+### 기술 스택
+
+- React 18및 관련 라이브러리 (Material-UI, React-Query, React-Hookform, yup 외 다수)
+
+### 구현
+
+- **React.js 18 + Material-ui 및 react-hookform, yup validation, react-query 라이브러리의 각종 케이스 경험**
+- **eCrf, PRO, Imaging, Safebox 구현**
+- **TinyMCE => SunEditor로 WebEditor 교체**
+
+### 결과물 및 링크
 
 - **당시기준 HDMS 서비스 Camel버전 솔루션 상용 오픈 3건**
+- 현업 프로젝트이므로 전체 공유는 불가. 메인화면, 회원가입 확인가능
+- [Hdms Camel PC URL (Main화면, 회원가입)](https://camel.dataservice.kr/)
 
 ---

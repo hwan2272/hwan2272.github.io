@@ -12,20 +12,30 @@
 
 ### 설명
 
-- 개인 프로젝트
-- 기술스택 : react, redux및 관련 라이브러리, 서울시 공공데이터(공원정보) api, Naver map api, Kakao map api
-- [GITHUB URL](https://github.com/hwan2272/react_seoulparks)
-- [DOTHOME URL](http://hwan2272.dothome.co.kr) - 보안이슈로 우선 close
+- 나만의 공원정보 서비스를 갖고싶어서 직접 개발한 서비스
 
-#### 기간
+### 기간
 
 - [2023.02] (1개월)
 
-#### 업무 내역
+### 인원 및 기여도
 
-- Frontend(직접 퍼블리싱 포함)개발
-- 공공데이터 서울시 공원정보 API 사용 적용
-- Naver, Kakao 지도 API 사용 - 사용에 따른 kakao developers 설정
-- 상세화면에서 Panorama(실사진 거리뷰) 를 적용키 위한 설정
+- 개인 프로젝트 (1인)
+- 기여도 : **100%**
+
+### 기술 스택
+
+- react, redux및 관련 라이브러리, 서울시 공공데이터(공원정보) api, Naver map api, Kakao map api
+
+### 구현
+
+- **공공데이터 서울시 공원정보 API 사용 적용**
+- **Naver, Kakao 지도 API 사용 - 사용에 따른 kakao developers 설정**
+- **상세화면에서 Panorama(실사진 거리뷰) 를 적용키 위한 설정**
+
+### 결과물 및 링크
+
+- [설힐공 PC URL](http://hwan2272.dothome.co.kr) - 보안이슈로 우선 close
+- [GITHUB URL](https://github.com/hwan2272/react_seoulparks)
 
 ---
