@@ -6,7 +6,7 @@ import md03 from "../markdownFiles/2016-03-egovcommittee.md";
 //import md05 from "../markdownFiles/2017-10-plugin.md";
 import md06 from "../markdownFiles/2019-09-minwiseservices.md";
 //import md07 from "../markdownFiles/2019-10-walhouse.md";
-//import md08 from "../markdownFiles/2020-11-aptcare.md";
+import md08 from "../markdownFiles/2020-11-aptcare.md";
 //import md09 from "../markdownFiles/2022-05-msaecomms.md";
 import md10 from "../markdownFiles/2023-02-toyseoulparks.md";
 import md11 from "../markdownFiles/2023-04-hdmscamel.md";
@@ -23,7 +23,7 @@ function ProjectMdFileReader() {
     //md05,
     md06,
     //md07,
-    //md08,
+    md08,
     //md09,
     md10,
     md11,
