@@ -13,7 +13,7 @@ function Footer() {
           variant="h2"
           className="site-footer"
           sx={{
-            fontFamily: "'Pretendard', sans-serif",
+            fontFamily: "'Pretendard-Regular', sans-serif",
             fontSize: "15pt",
           }}
         >

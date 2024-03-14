@@ -5,7 +5,8 @@ import { BrowserRouter } from "react-router-dom";
 
 const theme = createTheme({
   typography: {
-    fontFamily: "'S-CoreDream-3Light', sans-serif",
+    //fontFamily: "'S-CoreDream-3Light', sans-serif",
+    fontFamily: "'Pretendard-Regular', sans-serif",
   },
 });
 
