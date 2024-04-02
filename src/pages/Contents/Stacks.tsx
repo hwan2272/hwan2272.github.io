@@ -57,14 +57,14 @@ function Stacks() {
               <ul>
                 <li>HTML과 CSS를 다루어 웹페이지 제작을 할 수 있습니다.</li>
                 <li>
-                  Figma를 사용한 협의는 해본 적은 없습니다. 하지만 디자인 직군과
-                  업무 협의한 경험이 많기 때문에 어렵지 않게 가능할 것으로
-                  생각합니다.
+                  Figma를 사용한 디자인과의 협의는 몇몇 기업의 기술과제를
+                  수행하며 적응하였습니다.
                 </li>
                 <li>
-                  퍼블리싱은 교육을 수료하였고 미숙할수 있지만 기본적인 것은
-                  어느정도 할 수 있습니다.
+                  퍼블리싱은 교육을 수료하였고 기본적인 것은 어느정도 할 수
+                  있습니다.
                 </li>
+                <li>최근 TailWind Css등을 학습 중에 있습니다.</li>
               </ul>
               <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
               <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
@@ -74,8 +74,8 @@ function Stacks() {
                   등)
                 </li>
                 <li>
-                  Typescript는 개발을 하며 접한 경험이 있어 100% 다루어 본적은
-                  없지만 잘 사용할 수 있을 것으로 생각합니다.
+                  Typescript는 많이 사용하여 보았고, 최근 기술과제도 수행하며
+                  적응하였습니다.
                 </li>
               </ul>
               <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" />
@@ -113,6 +113,11 @@ function Stacks() {
               <ul>
                 <li>Git, Jira를 협업 툴로 많이 사용하였습니다.</li>
                 <li>Git로 소스 fetch, pull 및 branch 작업에 익숙합니다.</li>
+                <li>
+                  최근 기술과제들을 수행하며 Pull Request 생태계에
+                  적응하였습니다.
+                </li>
+                <li>Pull Request시에는 feature branch를 주로 사용합니다.</li>
               </ul>
               <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
               <ul>
